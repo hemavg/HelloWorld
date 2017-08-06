@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var TitleImage: UIImageView!
+    @IBOutlet weak var TitleBlock: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        TitleBlock.text="Hema";
+        TitleImage.image=UIImage(named:"IMG1")
     }
 
     override func didReceiveMemoryWarning() {
